@@ -18,7 +18,7 @@ Use this profile like this:
 To install `ckanext-dcat-ap-edp-mqa`:
 1. Add the extension to the Dockerfile and add these lines at the end (folder path: `ckan-docker/ckan/`):
     ```bash
-    RUN pip3 install -e git+https://github.com/tlmat-unican/ckanext-dcat-ap-edp-mqa.git@main#egg=ckanext-dcat-ap-edp-mqa && \
+    RUN pip3 install -e git+https://github.com/SALTED-Project/ckanext-dcat-ap-edp-mqa.git@main#egg=ckanext-dcat-ap-edp-mqa && \
     pip3 install -r ${APP_DIR}/src/ckanext-dcat-ap-edp-mqa/requirements.txt
     ```
     **Note:**: Make sure to install [ckanext-dcat](https://github.com/ckan/ckanext-dcat/tree/master) too.
@@ -41,7 +41,7 @@ To install `ckanext-dcat-ap-edp-mqa`:
 To install `ckanext-dcat-ap-edp-mqa`:
 1. Clone the GitHub repository (folder path: `ckan-docker/src/`):
     ```bash
-    git clone https://github.com/tlmat-unican/ckanext-dcat-ap-edp-mqa.git
+    git clone https://github.com/SALTED-Project/ckanext-dcat-ap-edp-mqa.git
     ```
     **Notes**: 
     - if `src/` folder do not exist, create it.
